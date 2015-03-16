@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+USER=
+PASS=''
+
+vault_url=https://example.com/query/
+civicrm_url=https://example.com/sites/all/modules/civicrm/extern/tcIPN.php
+
+datafile=$HOME/dat/tcipn.$(date '+%Y%m%d').csv
+logfile=$HOME/log/tcipn.$(date '+%Y%m%d').log
